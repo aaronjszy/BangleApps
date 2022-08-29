@@ -1,0 +1,15 @@
+{ "id": "adhdclock",
+  "name":"ADHD Clock",
+  "description": "A clock that tells you how long to your next event.",
+  "shortName":"ADHD Clock",
+  "version":"0.02",
+  "icon": "app.png",
+  "type": "clock",
+  "tags": "clock",
+  "supports" : ["BANGLEJS2"],  
+  "readme": "README.md",
+  "storage": [
+    {"name":"adhdclock.app.js","url":"app.js"},
+    {"name":"adhdclock.img","url":"app-icon.js","evaluate":true}
+  ]
+}
