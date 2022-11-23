@@ -8,6 +8,7 @@
   "tags": "clock",
   "supports" : ["BANGLEJS2"],  
   "readme": "README.md",
+  "dependencies": {"scheduler":"type"},
   "storage": [
     {"name":"adhdclock.app.js","url":"app.js"},
     {"name":"adhdclock.img","url":"app-icon.js","evaluate":true}
